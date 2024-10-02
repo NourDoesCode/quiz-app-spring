@@ -22,4 +22,8 @@ public class QuestionController {
         return questionService.getAllQuestions();
     }
 
+    public List<Question> getQuestionsByCategory() {
+        return questionService.getQuestionsByCategory();
+    }
+
 }
